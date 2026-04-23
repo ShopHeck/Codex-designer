@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #0a0f1c;
+  --color-surface: #12182a;
+  --color-elevated: #0f1526;
+  --color-cyan: #00d4ff;
+  --color-purple: #7b61ff;
+  --color-foreground: #ffffff;
+  --color-muted: #aab3c5;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
